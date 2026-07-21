@@ -1,0 +1,15 @@
+{
+  "name": "stock-conviction-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard bursatil con 3 filtros: caso bajista, Conviction Score y catalizadores a 12 meses.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
